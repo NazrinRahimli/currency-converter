@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Currency Converter</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+</head>
+<body>
+    <div class="navbar">
+        <button>
+            <img src="images/logo.svg" alt="logo" class="logo">
+        </button>
+        <div class="box-menu">
+        <a href="#" class="menu">BANK</a>
+        <a href="#" class="menu">BUSINESS</a>
+        <a href="#" class="menu">INVESTMENTS</a>
+        <a href="#" class="menu">INSURANCE</a>
+        <a href="#" class="menu">MOBILE</a>
+        <a href="#" class="menu">TRAVEL</a>
+        <a href="#" class="menu">ENTERTAINMENT</a>
+        </div>
+        <button class="login">LOGIN</button>
+    </div>
+    <div class="container">
+        <span class="black">Online Currency Converter</span>
+        <div class="converter-box">
+            <div class="enter">
+                <span class="text">I have</span>
+                <div class="currency l">
+                    <button id="1" class="currency-btn left">RUB</button>
+                    <button id="2" class="currency-btn left">USD</button>
+                    <button id="3" class="currency-btn left">EUR</button>
+                    <button id="4" class="currency-btn left">AZN</button>
+                </div>
+                <div class="box-result">
+                    <input id="amount1" class="result" type="number">
+                    <p id="livecurrency2"></p>
+                </div>
+            </div>
+            <div class="convert">
+                <span class="text">I want to gain</span>
+                <div class="currency r">
+                    <button id="5" class="currency-btn right">RUB</button>
+                    <button id="6" class="currency-btn right">USD</button>
+                    <button id="7" class="currency-btn right">EUR</button>
+                    <button id="8" class="currency-btn right">AZN</button>
+                </div>
+                <div class="box-result">
+                    <input id="amount2" class="result" type="number">
+                    <p id="livecurrency"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src='script.js'></script>
+</html>
